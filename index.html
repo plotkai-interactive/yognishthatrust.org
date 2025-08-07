@@ -29,8 +29,37 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+.float-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 36px;
+  box-shadow: 2px 2px 8px #888;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+.float-whatsapp:hover {
+  background-color: #128c7e;
+  color: #fff;
+  text-decoration: none;
+}
+</style>
   </head>
   <body>
+    <a href="https://api.whatsapp.com/send/?phone=918090431230&text&type=phone_number&app_absent=0" 
+   class="float-whatsapp" target="_blank" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
   		<div class="container">
   			<div class="row m-auto">
@@ -87,10 +116,13 @@
             
             <p>
               <a href="https://api.whatsapp.com/send/?phone=918090431230&text&type=phone_number&app_absent=0" class="btn btn-white px-4 py-3 mt-3" style="color:#fff; background-color: rgb(255, 159, 0, 0.8);">
-                <i class="fab fa-whatsapp"></i>  Demo Session
+                <i class="fab fa-whatsapp"></i>  Get a Demo Session
               </a>
               <a href="yoga-diwas.html" class="btn btn-white px-4 py-3 mt-3" style="color:#fff; background-color: rgb(255, 159, 0, 0.8);">
                 <i class="fab fa-hashtag"></i>  International Yoga Day 2025
+              </a>
+              <a href="classes.html" class="btn btn-white px-4 py-3 mt-3" style="color:#fff; background-color: rgb(255, 159, 0, 0.8);">
+                <i class="fab fa-meeting"></i>  Join Ongoing Classes 
               </a>
             </p>
           </div>

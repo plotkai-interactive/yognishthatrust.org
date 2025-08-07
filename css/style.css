@@ -9088,8 +9088,8 @@ h1, h2, h3, h4, h5,
       color: #fff; }
 
 .ftco-social a {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   display: inline-block;
   margin-right: 2px;
   background: white;
@@ -9173,8 +9173,8 @@ textarea.form-control {
   margin: 0 10px 0 0;
   display: inline-block; }
   .ftco-footer-social li a {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: block;
     background: #309898;
     border-radius: 50%;
